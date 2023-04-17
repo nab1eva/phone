@@ -27,6 +27,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  padding-bottom: 200px;
   .line{
     display: flex;
     justify-content: space-between;
@@ -91,4 +92,9 @@ img {
   border: none;
   background-color: rgba(128, 128, 128, 0.579);
   border-radius: 14px;
+}
+
+iframe{
+    border-radius: 14px;
+    border: none;
 }
