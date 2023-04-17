@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="css/clock.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Clock</h1>
+      <div class="search">
+        <input
+          type="text"
+          id="search"
+          onkeyup="myFunction()"
+          placeholder="Search for cities..."
+        />
+      </div>
+      <ul id="myUL">
+        <li>
+          <p><span>Today, +0HRS</span><a href="Tashkent">Tashkent</a></p>
+          <div class="clock" id="clock" onload="currentTime()"></div>
+        </li>
+        <li>
+          <p><span>Today, -1HRS</span><a href="AbuDhabi">AbuDhabi</a></p>
+          <div class="clock" id="clockAbuDhabi" onload="currentTime()"></div>
+        </li>
+        <li>
+          <p><span>Today, -3HRS</span><a href="Barcelona">Barcelona</a></p>
+          <div class="clock" id="clockBarcelona" onload="currentTime()"></div>
+        </li>
+        <li>
+          <p><span>Today, -8HRS</span><a href="Brasilia">Brasilia</a></p>
+          <div class="clock" id="clockBrasilia" onload="currentTime()"></div>
+        </li>
+        <li>
+          <p><span>Today, +30MINS</span><a href="Colombo">Colombo</a></p>
+          <div class="clock" id="clockColombo" onload="currentTime()"></div>
+        </li>
+        <li>
+          <p><span>Today, -2HRS</span><a href="Mecca">Mecca</a></p>
+          <div class="clock" id="clockMecca" onload="currentTime()"></div>
+        </li>
+        <li>
+          <p><span>Today, -2HRS</span><a href="Moscow">Moscow</a></p>
+          <div class="clock" id="clockMoscow" onload="currentTime()"></div>
+        </li>
+        <li>
+          <p><span>Today, -3HRS</span><a href="Paris">Paris</a></p>
+          <div class="clock" id="clockParis" onload="currentTime()"></div>
+        </li>
+        <li>
+          <p><span>Today, +3HRS</span><a href="Shanghai">Shanghai</a></p>
+          <div class="clock" id="clockShanghai" onload="currentTime()"></div>
+        </li>
+        <li>
+          <p><span>Today, -9HRS</span><a href="Washington">Washington</a></p>
+          <div class="clock" id="clockWashington" onload="currentTime()"></div>
+        </li>
+      </ul>
+    </div>
+    <script src="js/clock.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  background: rgba(0, 0, 0, 0.948);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.container .line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.container .line .div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#clockContainer {
+  position: relative;
+  padding: 5px;
+  height: 150px;
+  width: 150px;
+  background: url(../images/clock.png) no-repeat;
+  background-size: 100%;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.711);
+  border-radius: 14px;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 1.8%;
+  height: 25%;
+  top: 25%;
+  left: 48.85%;
+  opacity: 0.8;
+}
+
+#minute {
+  width: 1.6%;
+  height: 30%;
+  top: 19%;
+  left: 48.9%;
+  opacity: 0.8;
+}
+
+#second {
+  width: 1%;
+  height: 40%;
+  top: 9%;
+  left: 49.25%;
+  opacity: 0.8;
+}
+
+.app {
+  width: 75px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.579);
+  border-radius: 14px;
+}
